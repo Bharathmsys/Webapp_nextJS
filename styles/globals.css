@@ -1,0 +1,230 @@
+.nav-bar{
+  background-color:rgb(2, 82, 108);
+  /* color: white !important; */
+  height: 90px;
+  display: flex;
+  justify-content: start;
+  
+}
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 70px;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: white;
+}
+.heading{
+  margin-left:50px; 
+  font-size: 25px;
+  margin-top: 30px;
+ color: white;
+}
+
+.img{
+  background-image: url('https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-07/future-artificial-intelligence.png');
+  background-size:cover;
+  height: auto;
+  color: white;
+ 
+
+}
+.li-element{
+  margin-top: 30px;
+  margin-left: 10%;
+
+
+}
+.title{
+ padding: 20px;
+ font-size: 35px;
+ padding-top: 10%;
+ line-height: 50px;
+ margin-left: 40px;
+} 
+.des{
+  font-size: 18px;
+  margin-left: 45px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.button{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(74, 201, 243);
+  border: none;
+  border-radius: 6px;
+  margin-top: 60px;
+  padding: 5px;
+  margin-left: 60px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+.container-2{
+  display: flex;
+  justify-content: center;
+}
+.con-2{
+  background-color: whitesmoke;
+  width: 350px;
+  height: 230px;
+   margin-top: 15%; 
+  margin-left: 30px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+.a{
+  border: none;
+  background-color: transparent;
+}
+.para{
+  color: grey;
+}
+.name{
+  font-size: 30px;
+  
+}
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+}
+.contact-con{
+  display: flex;
+  flex-direction: column;
+   align-items: center; 
+   margin-top: 3%;
+}
+.contact-image{
+  border-radius: 50%;
+  background-color: transparent;
+  border: 5px solid rgb(39, 182, 239); 
+}
+.contact-title{
+  font-size: 70px;
+  font-weight: 700;
+  padding: 10px;
+  font-family: "Roboto";
+}
+.contact-para{
+  width: 500px;
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+  
+}
+.contact-end-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+.contact-form{
+  margin-top: 3%;
+}
+#name{
+  width: 500px;
+}
+.label-name{
+  font-size: 17px;
+  font-weight: 500;
+}
+.bottom-img{
+  /* background-color: rgb(39, 182, 239); */
+  border-radius: 50%;
+  margin-left: 50px;
+  border: 1px solid skyblue;
+}
+.bottom-img2{
+  background-color: rgb(39, 182, 239);
+  border-radius: 50%;
+  margin-left: 90px;
+  border: 1px solid skyblue;
+}
+.bottom-img3{
+  background-color: rgb(39, 182, 239);
+  border-radius: 50%;
+  margin-left: 110px;
+  border: 1px solid skyblue;
+}
+.end-title{
+  padding: 10px;
+  font-weight: 640;
+}
+.end-para{
+  color: grey;
+  padding-left: 40px;
+  font-weight: 500;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center; 
+  height: 70vh;
+}
+
+.about-img {
+  width: 200px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.about-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #6d396b;
+  font-size: 60px;
+}
+
+/* @media (min-width: 576px) {
+  .about-heading {
+    font-size: 48px;
+  }
+} */
+
+.about-paragraph {
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+  color: #555555;
+}
+.about-end{
+  background-color:whitesmoke;
+  width: 300px;
+  height: 40px;
+  color: #6d396b;
+  text-align: center;
+  border-radius: 10px;
+}
+.about-end-container{
+  display: flex;
+  justify-content: space-around;
+}
+.span{
+  font-size: 15px;
+}
+.service-container{
+  background-color: rgb(16, 26, 26);
+  color: white;
+}
+.service-container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.service-title{
+  padding-top: 20px;
+  font-size: 55px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.service-para{
+  color: rgb(186, 182, 182);
+  padding: 10px;
+  font-size: 20px;
+}
+.data-image{
+  width: 100vw;
+  height: 100vh;
+}
